@@ -6,6 +6,7 @@ Output : JSON file named output.json
 
 import json as js
 import os
+import csv
 
 cwd = os.path.dirname(__file__)
 path = os.path.join(cwd,"Data/events.json")
