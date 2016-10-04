@@ -36,8 +36,8 @@ listuser={}
 import json as js 
 import os 
  
- 
-cwd = os.path.dirname("C:\Users\user\Desktop\Projet inno\Spyder\MyJobGlasses-master\Data") 
+#cwd = os.path.dirname(__file__)
+cwd = os.path.dirname("/Users/adrien/PycharmProjects/MyJobGlasses/")
 path = os.path.join(cwd,"Data/events.json") 
 file = open(path) 
 
