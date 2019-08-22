@@ -1,0 +1,21 @@
+# RubyMine
+/.idea
+*.DS_Store
+
+# data
+data/*
+!data/.keep
+
+# dump
+dump/*
+!dump/.keep
+
+# bundler
+/.bundle
+
+# Agamemnon
+agamemnon/config/secrets.yml
+*.pdf
+columbus/CrossValidationscore.png
+columbus/tests/crossvalidation.py
+columbus/models/User.py
